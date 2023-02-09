@@ -10,13 +10,14 @@ import android.widget.EditText;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     EditText result;
     String operatorPressed = " ";
-    Button one, two, three, four, five, six, seven, eight, nine;
+    Button one, two, three, four, five, six, seven, eight, nine, zero;
     Button plus, minus, multiply, division, mod, equal, clear, dot;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         result = findViewById(R.id.res);
+        zero = findViewById(R.id.zero);
         one = findViewById(R.id.one);
         two = findViewById(R.id.two);
         three = findViewById(R.id.three);
@@ -35,6 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         clear = findViewById(R.id.clear);
         dot = findViewById(R.id.dot);
 
+        zero.setOnClickListener(this);
         one.setOnClickListener(this);
         two.setOnClickListener(this);
         three.setOnClickListener(this);
