@@ -21,17 +21,17 @@ class XyloPage extends StatefulWidget {
 }
 
 class _XyloPageState extends State<XyloPage> {
-  // void playSound(int noteNumber) {
-  //   final player = AudioCache();
-  //   player.play("/assets/note$noteNumber.wav");
-  // }
-  void playSound(int i) async {
-    AudioPlayer audio = AudioPlayer();
-    String file = 'assets/note$i.wav';
-    ByteData data = await rootBundle.load(file);
-    Uint8List audioData = data.buffer.asUint8List();
-    await audio.playBytes(audioData);
+  void playSound(int i) {
+    final player = AudioCache();
+    player.play("note$i.wav");
   }
+  // void playSound(int i) async {
+  //   AudioPlayer audio = AudioPlayer();
+  //   String file = 'assets/note$i.wav';
+  //   ByteData data = await rootBundle.load(file);
+  //   Uint8List audioData = data.buffer.asUint8List();
+  //   await audio.playBytes(audioData);
+  // }
 
 
   @override
