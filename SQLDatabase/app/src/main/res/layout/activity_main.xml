@@ -1,129 +1,117 @@
-<< ? xml version = "1.0"
-encoding = "utf-8" ? >
-    <
-    androidx.constraintlayout.widget.ConstraintLayout xmlns : android = "http://schemas.android.com/apk/res/android"
-xmlns: app = "http://schemas.android.com/apk/res-auto"
-xmlns: tools = "http://schemas.android.com/tools"
-android: layout_width = "match_parent"
-android: layout_height = "match_parent"
-tools: context = ".MainActivity" >
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" 
+    xmlns:tools="http://schemas.android.com/tools" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" 
+    tools:context=".MainActivity">
 
-    <
-    EditText
-android: id = "@+id/name"
-android: layout_width = "wrap_content"
-android: layout_height = "wrap_content"
-android: layout_marginTop = "84dp"
-android: layout_marginEnd = "128dp"
-android: ems = "10"
-android: hint = "Enter the Name"
-android: inputType = "textPersonName"
-app: layout_constraintEnd_toEndOf = "parent"
-app: layout_constraintTop_toTopOf = "parent" / >
+    <EditText
+        android:id="@+id/name" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="84dp" 
+        android:layout_marginEnd="128dp" 
+        android:ems="10" 
+        android:hint="Enter the Name" 
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent" 
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <
-    EditText
-android: id = "@+id/contact"
-android: layout_width = "wrap_content"
-android: layout_height = "wrap_content"
-android: layout_marginTop = "188dp"
-android: layout_marginEnd = "132dp"
-android: ems = "10"
-android: hint = "Enter the contact no"
-android: inputType = "textPersonName"
-app: layout_constraintEnd_toEndOf = "parent"
-app: layout_constraintTop_toTopOf = "parent" / >
+    <EditText
+        android:id="@+id/contact" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="188dp" 
+        android:layout_marginEnd="132dp" 
+        android:ems="10" 
+        android:hint="Enter the contact no" 
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent" 
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <
-    EditText
-android: id = "@+id/age"
-android: layout_width = "wrap_content"
-android: layout_height = "wrap_content"
+    <EditText
+        android:id="@+id/age" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
 
-android: layout_marginTop = "308dp"
-android: layout_marginEnd = "128dp"
-android: ems = "10"
-android: hint = "Enter the Age"
-android: inputType = "textPersonName"
-app: layout_constraintEnd_toEndOf = "parent"
-app: layout_constraintTop_toTopOf = "parent" / >
+        android:layout_marginTop="308dp" 
+        android:layout_marginEnd="128dp" 
+        android:ems="10" 
+        android:hint="Enter the Age" 
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent" 
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <
-    TextView
-android: id = "@+id/textView2"
-android: layout_width = "107dp"
-android: layout_height = "26dp"
-android: layout_marginTop = "56dp"
-android: layout_marginEnd = "232dp"
-android: text = "Name :"
-app: layout_constraintEnd_toEndOf = "parent"
-app: layout_constraintTop_toTopOf = "parent" / >
+    <TextView
+        android:id="@+id/textView2" 
+        android:layout_width="107dp" 
+        android:layout_height="26dp" 
+        android:layout_marginTop="56dp" 
+        android:layout_marginEnd="232dp" 
+        android:text="Name :" 
+        app:layout_constraintEnd_toEndOf="parent" 
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <
-    TextView
-android: id = "@+id/textView3"
-android: layout_width = "110dp"
-android: layout_height = "33dp"
-android: layout_marginTop = "152dp"
-android: layout_marginEnd = "228dp"
-android: text = "Contact :"
-app: layout_constraintEnd_toEndOf = "parent"
-app: layout_constraintTop_toTopOf = "parent" / >
+    <TextView
+        android:id="@+id/textView3" 
+        android:layout_width="110dp" 
+        android:layout_height="33dp" 
+        android:layout_marginTop="152dp" 
+        android:layout_marginEnd="228dp" 
+        android:text="Contact :" 
+        app:layout_constraintEnd_toEndOf="parent" 
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <
-    TextView
-android: id = "@+id/textView4"
-android: layout_width = "93dp"
-android: layout_height = "26dp"
-android: layout_marginTop = "268dp"
-android: layout_marginEnd = "240dp"
-android: text = "Age :"
-app: layout_constraintEnd_toEndOf = "parent"
-app: layout_constraintTop_toTopOf = "parent" / >
+    <TextView
+        android:id="@+id/textView4" 
+        android:layout_width="93dp" 
+        android:layout_height="26dp" 
+        android:layout_marginTop="268dp" 
+        android:layout_marginEnd="240dp" 
+        android:text="Age :" 
+        app:layout_constraintEnd_toEndOf="parent" 
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <
-    Button
-android: id = "@+id/insert"
-android: layout_width = "wrap_content"
-android: layout_height = "wrap_content"
-android: layout_marginTop = "48dp"
-android: layout_marginEnd = "248dp"
-android: text = "Insert"
-app: layout_constraintEnd_toEndOf = "parent"
-app: layout_constraintTop_toBottomOf = "@+id/age" / >
+    <Button
+        android:id="@+id/insert" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="48dp" 
+        android:layout_marginEnd="248dp" 
+        android:text="Insert" 
+        app:layout_constraintEnd_toEndOf="parent" 
+        app:layout_constraintTop_toBottomOf="@+id/age" />
 
-    <
-    Button
+    <Button
 
-android: id = "@+id/update"
-android: layout_width = "wrap_content"
-android: layout_height = "wrap_content"
-android: layout_marginTop = "48dp"
-android: layout_marginEnd = "104dp"
-android: text = "Update"
-app: layout_constraintEnd_toEndOf = "parent"
-app: layout_constraintTop_toBottomOf = "@+id/age" / >
+        android:id="@+id/update" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="48dp" 
+        android:layout_marginEnd="104dp" 
+        android:text="Update" 
+        app:layout_constraintEnd_toEndOf="parent" 
+        app:layout_constraintTop_toBottomOf="@+id/age" />
 
-    <
-    Button
-android: id = "@+id/delete"
-android: layout_width = "wrap_content"
-android: layout_height = "wrap_content"
-android: layout_marginTop = "56dp"
-android: layout_marginEnd = "244dp"
-android: text = "Delete"
-app: layout_constraintEnd_toEndOf = "parent"
-app: layout_constraintTop_toBottomOf = "@+id/insert" / >
+    <Button
+        android:id="@+id/delete" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="56dp" 
+        android:layout_marginEnd="244dp" 
+        android:text="Delete" 
+        app:layout_constraintEnd_toEndOf="parent" 
+        app:layout_constraintTop_toBottomOf="@+id/insert" />
 
-    <
-    Button
-android: id = "@+id/view"
-android: layout_width = "wrap_content"
-android: layout_height = "wrap_content"
-android: layout_marginTop = "56dp"
-android: layout_marginEnd = "100dp"
-android: text = "View"
-app: layout_constraintEnd_toEndOf = "parent"
-app: layout_constraintTop_toBottomOf = "@+id/update" / >
-    <
-    /androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/view" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="56dp" 
+        android:layout_marginEnd="100dp" 
+        android:text="View" 
+        app:layout_constraintEnd_toEndOf="parent" 
+        app:layout_constraintTop_toBottomOf="@+id/update" />
+</androidx.constraintlayout.widget.ConstraintLayout>
